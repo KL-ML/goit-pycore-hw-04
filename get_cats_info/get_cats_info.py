@@ -71,12 +71,10 @@ def get_cats_info(path):
 #     # Обробляє помилку відсутності файлу за вказаним шляхом, або вказаний шлях пошкоджений
 #     except FileNotFoundError:
 #         print("Не вдалося знайти файл.")
-#         return cats_info
     
 #     # Обробляє помилку коли замість файлу вказаний шлях до директорії
 #     except IsADirectoryError:
 #         print("Не вдалося знайти файл.")
-#         return cats_info
     
 
 
